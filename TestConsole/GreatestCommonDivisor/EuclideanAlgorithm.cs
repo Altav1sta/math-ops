@@ -3,14 +3,14 @@
     /// <summary>
     /// <see href="https://en.wikipedia.org/wiki/Euclidean_algorithm"/>
     /// </summary>
-    internal class EuclideanAlgorithm : IGCDSearchAlgorithm
+    internal class EuclideanAlgorithm : IGCDAlgorithm
     {
         public int FindGreatestCommonDivisor(int a, int b)
         {
-            Validate.GreaterThan(nameof(a), a, 0);
-            Validate.GreaterThan(nameof(b), b, 0);
+            Validate.Positive(nameof(a), a);
+            Validate.Positive(nameof(b), b);
 
-            if (a < b) Swap(ref a, ref b);
+            if (a < b) Helper.Swap(ref a, ref b);
 
             var remainder2StepsAgo = a;
             var remainder1StepAgo = b;
@@ -30,13 +30,6 @@
                     return quotient;
                 }
             }
-        }
-
-        private static void Swap(ref int a, ref int b)
-        {
-            a ^= b;
-            b ^= a;
-            a ^= b;
         }
     }
 }
