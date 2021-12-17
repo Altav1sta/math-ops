@@ -3,7 +3,7 @@
     /// <summary>
     /// <see href="https://en.wikipedia.org/wiki/Euclidean_algorithm"/>
     /// </summary>
-    internal class EuclideanAlgorithm : IGCDAlgorithm
+    internal class EuclideanAlgorithm : IGcdAlgorithm
     {
         public int FindGreatestCommonDivisor(int a, int b)
         {

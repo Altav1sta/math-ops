@@ -3,7 +3,7 @@
     /// <summary>
     /// <see href="https://en.wikipedia.org/wiki/Binary_GCD_algorithm"/>
     /// </summary>
-    internal class BinaryAlgorithm : IGCDAlgorithm
+    internal class BinaryAlgorithm : IGcdAlgorithm
     {
         public int FindGreatestCommonDivisor(int a, int b)
         {
