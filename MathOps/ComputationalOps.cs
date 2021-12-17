@@ -1,8 +1,8 @@
-﻿using TestConsole.GreatestCommonDivisor;
+﻿using MathOps.GreatestCommonDivisor;
 
-namespace TestConsole
+namespace MathOps
 {
-    public static class MathOps
+    public static class ComputationalOps
     {
         public static int GreatestCommonDivisor(int a, int b)
         {

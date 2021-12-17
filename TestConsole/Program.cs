@@ -1,4 +1,4 @@
-﻿using TestConsole;
+﻿using MathOps;
 
 
 Start:
@@ -6,7 +6,7 @@ Start:
 Console.WriteLine($"Here is the console for testing math functions.");
 Console.WriteLine();
 
-var x = MathOps.GreatestCommonDivisor(121, 11);
+var x = ComputationalOps.GreatestCommonDivisor(121, 11);
 
 Console.WriteLine(x);
 Console.WriteLine();

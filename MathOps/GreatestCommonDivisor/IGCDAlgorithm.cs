@@ -1,4 +1,4 @@
-﻿namespace TestConsole.GreatestCommonDivisor
+﻿namespace MathOps.GreatestCommonDivisor
 {
     /// <summary>
     /// Algorithm for finding the Greatest Common Divisor

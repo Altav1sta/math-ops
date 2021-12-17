@@ -1,4 +1,4 @@
-﻿namespace TestConsole
+﻿namespace MathOps
 {
     internal static class Validate
     {

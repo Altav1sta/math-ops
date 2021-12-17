@@ -1,4 +1,4 @@
-﻿namespace TestConsole.GreatestCommonDivisor
+﻿namespace MathOps.GreatestCommonDivisor
 {
     /// <summary>
     /// <see href="https://en.wikipedia.org/wiki/Binary_GCD_algorithm"/>
